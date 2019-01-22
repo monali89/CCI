@@ -1,8 +1,19 @@
 package linkedLists;
 
-public class Node {
+public class Node<E> {
 	
-	Node next = null;
+	Node next;
+	E data;
+	
+	Node(E d){
+		data = d;
+		next = null;
+	}
+	
+	
+	
+	
+	/*Node next = null;
 	int data;
 
 	public static void main(String[] args) {
@@ -35,7 +46,7 @@ public class Node {
 			System.out.println(n.data);
 			n = n.next;
 		}
-	}
+	}*/
 	
 
 }
